@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Mercedes-Benz: The Star Since 1926</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;700&family=Barlow:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav><div class="wrap"><b>MERCEDES-BENZ</b>
+<ul><li><a href="#history">History</a></li><li><a href="#models">Models</a></li><li><a href="#racing">Racing</a></li></ul></div></nav>
+
+<header class="hero"><div class="wrap">
+  <div>
+    <h1>The best or nothing.</h1>
+    <p>For nearly a century, Mercedes-Benz has built cars that mix engineering, comfort and design. Explore the story behind the three-pointed star and the cars that carry it.</p>
+    <a class="btn" href="#models">Browse models</a>
+  </div>
+  <svg class="star" id="star" viewBox="0 0 200 200" role="img" aria-label="Mercedes three-pointed star in a ring. Click to spin it.">
+    <g class="spin" id="spin">
+      <circle cx="100" cy="100" r="92" fill="none" stroke="currentColor" stroke-width="7"/>
+      <g fill="currentColor">
+        <path d="M100 14 L108 100 L100 108 L92 100 Z"/>
+        <path d="M100 14 L108 100 L100 108 L92 100 Z" transform="rotate(120 100 100)"/>
+        <path d="M100 14 L108 100 L100 108 L92 100 Z" transform="rotate(240 100 100)"/>
+      </g>
+    </g>
+  </svg>
+</div></header>
+
+<section id="history"><div class="wrap">
+  <h2>A short history</h2>
+  <p class="lead">Two rival pioneers, one merger, and a star that stood for travel on land, sea and air.</p>
+  <ul class="tl">
+    <li><strong>1886</strong><span>Karl Benz patents the Motorwagen, widely regarded as the first practical automobile. Gottlieb Daimler builds his own motor carriage the same year.</span></li>
+    <li><strong>1901</strong><span>The Mercedes 35 HP arrives, named after the daughter of dealer Emil Jellinek, and sets the template for the modern car.</span></li>
+    <li><strong>1926</strong><span>Daimler and Benz &amp; Cie. merge to form Daimler-Benz. The brand becomes Mercedes-Benz.</span></li>
+    <li><strong>1954</strong><span>The 300 SL “Gullwing” debuts with doors that open upward and a fuel-injected engine.</span></li>
+    <li><strong>1972</strong><span>The first car to carry the name S-Class launches, long the brand’s flagship sedan.</span></li>
+    <li><strong>Today</strong><span>Mercedes-Benz is pushing into electric cars with the EQ range, while keeping its luxury and AMG performance lines.</span></li>
+  </ul>
+</div></section>
+
+<section id="models"><div class="wrap">
+  <h2>Models</h2>
+  <p class="lead">Pick a body style. These are simple illustrations, not photos.</p>
+  <div class="tabs" id="tabs">
+    <button aria-pressed="true" data-f="all">All</button>
+    <button aria-pressed="false" data-f="sedan">Sedan</button>
+    <button aria-pressed="false" data-f="coupe">Coupe</button>
+    <button aria-pressed="false" data-f="suv">SUV</button>
+    <button aria-pressed="false" data-f="electric">Electric</button>
+  </div>
+  <div class="grid" id="grid"></div>
+</div></section>
+
+<section id="racing"><div class="wrap">
+  <h2>Silver Arrows</h2>
+  <p class="lead">Racing has been part of the brand since its earliest days.</p>
+  <div class="facts">
+    <div><h3>1930s</h3><p>Unpainted silver cars earn the nickname “Silver Arrows” and dominate Grand Prix racing.</p></div>
+    <div><h3>1955</h3><p>Juan Manuel Fangio wins the Formula 1 world title driving for Mercedes-Benz.</p></div>
+    <div><h3>2014–2021</h3><p>The Mercedes F1 team wins eight constructors’ championships in a row.</p></div>
+  </div>
+</div></section>
+
+<footer><div class="wrap">An unofficial fan page. Mercedes-Benz and the three-pointed star are trademarks of Mercedes-Benz Group AG.</div></footer>
+
+<script src="script.js"></script>
+</body>
+</html>
